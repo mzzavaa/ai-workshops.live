@@ -82,6 +82,7 @@ img { max-width: 100%; display: block; }
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  position: relative;
 }
 
 /* --- Typography --- */
@@ -306,6 +307,7 @@ html.dark .icon-moon { display: none; }
     color-mix(in srgb, var(--blue) 18%, transparent) 0%,
     transparent 70%);
   pointer-events: none;
+  z-index: -1;
 }
 
 .hero::after {
@@ -319,6 +321,7 @@ html.dark .icon-moon { display: none; }
     color-mix(in srgb, var(--amber) 10%, transparent) 0%,
     transparent 65%);
   pointer-events: none;
+  z-index: -1;
 }
 
 .hero-badge {
