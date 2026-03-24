@@ -1,0 +1,24 @@
+baseURL: "https://ai-workshops.live/"
+languageCode: "en-us"
+title: "ai-workshops.live - AI Workshops, Powered by Agents"
+
+params:
+  description: "Structured AI workshops powered by intelligent agents and guided by an expert. Get enterprise-grade workshop methodology at a fraction of the cost."
+  author: "Linda Mohamed"
+  darkMode: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+
+enableRobotsTXT: true
+canonifyURLs: true
+
+disableKinds:
+  - taxonomy
+  - term
